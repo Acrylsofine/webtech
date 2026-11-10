@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Student Registration</legend>
+            <div><label for="sid">Student ID:</label><input type="text" name="" id="sid" placeholder="Enter Student ID" required="required"></div>
+            <div><label for="name">Full Name:</label><input type="text" name="" id="name" placeholder="Name" required="required"></div>
+            <div><label for="email">Email:</label><input type="email" name="" id="email" placeholder="example@email.com" required="required"></div>
+            <div><label for="pass">Password:</label><input type="password" name="" id="pass" placeholder="••••••••" required="required"></div>
+            <div>Gender:</div>
+            <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label><input type="radio" name="gender" id="female" value="female"><label for="female">Female</label></fieldset>
+        <div><label for="course">Course:</label>
+            <select name="" id="course">
+                <option value="">-- Select Course --</option>
+                <option value="cs">Computer Science</option>
+                <option value="it">Information Technology</option>
+                <option value="eng">Engineering</option>
+            </select>
+        </div>
+        <div>Hobbies:</div>
+        <input type="checkbox" name="hobbies" id="hobby1" value="coding"><label for="hobby1">Coding</label><input type="checkbox" name="hobbies" id="hobby2" value="sports"><label for="hobby2">Sports</label></form>
+    <div><label for="addr">Address:</label><textarea name="" id="addr" rows="4"></textarea></div>
+    <button type="submit">Submit</button>
+</body>
+</html>
